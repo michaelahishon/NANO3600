@@ -4,10 +4,10 @@
 from math import exp, log
 
 def f(x):
-    return (exp(x) - 1)/x
+    return (exp(-x) - 1)/x
 
 def g(x):
-    w = exp(x)
+    w = exp(-x)
     if w==0.:
         val = -1/x
     elif w==1.:
